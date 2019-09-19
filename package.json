@@ -1,0 +1,26 @@
+{
+  "name": "node-server-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanProdaiko94/node-server-example.git"
+  },
+  "author": "Ivan Prodaiko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanProdaiko94/node-server-example/issues"
+  },
+  "homepage": "https://github.com/IvanProdaiko94/node-server-example#readme",
+  "dependencies": {
+    "http-graceful-shutdown": "^2.3.2",
+    "koa": "^2.8.1",
+    "koa-body": "^4.1.1",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^7.4.0"
+  }
+}
