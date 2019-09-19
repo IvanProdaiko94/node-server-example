@@ -1,5 +1,5 @@
 const koaBody = require('koa-body');
-const { multVecs } = require('../../utils/');
+const { subtractVecs } = require('../../utils/');
 
 /*
 Expected structure
@@ -29,7 +29,7 @@ module.exports = [
                         timestamp: body.timestamp,
                         result: {
                             title: "Result",
-                            values: multVecs(part1, part2),
+                            values: subtractVecs(part1, part2),
                         }
                     }
                 } catch (e) {
