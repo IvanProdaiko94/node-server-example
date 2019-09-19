@@ -58,3 +58,8 @@ curl -d '{
              ]
          }' -H "Content-Type: application/json" -X POST http://localhost:{port}/compute/{request_id}
 ```
+
+## Run tests
+```bash
+npm test
+```
