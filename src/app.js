@@ -4,9 +4,9 @@ module.exports = {
     createApp: (
         app,
         router,
-        ...routes
+        ...appRoutes
     ) => {
-        routes.forEach(
+        appRoutes.forEach(
             routes => routes.forEach(
                 handler => router[handler.method](...handler.args)
             )
